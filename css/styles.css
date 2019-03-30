@@ -26,11 +26,11 @@ body a:hover {
 }
 
 .moving-border,
- .menu-btn .menu-icon,
- .menu-btn .menu-icon::before,
- .menu-btn .menu-icon::after {
-     background-color: #1b1b1c;
- }
+.menu-btn .menu-icon,
+.menu-btn .menu-icon::before,
+.menu-btn .menu-icon::after {
+    background-color: #1b1b1c;
+}
 
 .block-container {
     margin-top: 3.5rem;
@@ -361,9 +361,13 @@ img {
 }
 
 /*top*/
+
+.shadow {
+    box-shadow: 0 0 10px #8a8989;
+}
+
 .main-container {
     margin-top: 2rem;
-    box-shadow: 0 0 10px #8a8989;
     padding: 2rem 2rem 0;
 }
 

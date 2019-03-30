@@ -17,17 +17,17 @@ $(function () {
             st = st + 500;
         }
 
-        if (st < z) {
-            $('.moving-border').height(st);
-        } else {
-            $('.moving-border').height(z);
-        }
-
-        if (st > 900) {
-            $('.back-to-top').fadeIn();
-        } else {
-            $('.back-to-top').fadeOut();
-        }
+        // if (st < z) {
+        //     $('.moving-border').height(st);
+        // } else {
+        //     $('.moving-border').height(z);
+        // }
+        //
+        // if (st > 900) {
+        //     $('.back-to-top').fadeIn();
+        // } else {
+        //     $('.back-to-top').fadeOut();
+        // }
     });
     scroll();
 
